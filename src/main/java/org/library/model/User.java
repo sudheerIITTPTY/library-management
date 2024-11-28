@@ -1,4 +1,4 @@
-package org.example.model;
+package org.library.model;
 
 public class User {
     private int userId;

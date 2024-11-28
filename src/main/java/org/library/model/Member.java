@@ -1,4 +1,4 @@
-package org.example.users;
+package org.library.model;
 
 public class Member extends User{
     private String status;
