@@ -1,29 +1,19 @@
 package org.library.model;
 
+import java.util.Date;
+
 public class User {
-    private int userId;
-    private String userName;
+
+    private String firstName;
+    private String lastName;
+    private Date dateOfBirth;
+    private char gender;
+    private String email;
     private String password;
-    private String membershipStatus;
+    private String  phoneNumber;
     private String pincode;
     private String city;
-    private int fineAmount;
-
-    public int getUserId() {
-        return userId;
-    }
-
-    public void setUserId(int userId) {
-        this.userId = userId;
-    }
-
-    public String getUserName() {
-        return userName;
-    }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
+    private String status;
 
     public String getPassword() {
         return password;
@@ -31,14 +21,6 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
-    }
-
-    public String getMembershipStatus() {
-        return membershipStatus;
-    }
-
-    public void setMembershipStatus(String membershipStatus) {
-        this.membershipStatus = membershipStatus;
     }
 
     public String getPincode() {
@@ -57,12 +39,59 @@ public class User {
         this.city = city;
     }
 
-    public int getFineAmount() {
-        return fineAmount;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setFineAmount(int fineAmount) {
-        this.fineAmount = fineAmount;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public Date getDateOfBirth() {
+        return dateOfBirth;
+    }
+
+    public void setDateOfBirth(Date dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
+    }
+
+    public char getGender() {
+        return gender;
+    }
+
+    public void setGender(char gender) {
+        this.gender = gender;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
 }

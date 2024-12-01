@@ -8,6 +8,7 @@ public class Book {
     private int price;
     private int pages;
     private int noOfBooks;
+    private String genre;
 
     public int getId() {
         return id;
@@ -57,4 +58,11 @@ public class Book {
         this.noOfBooks = noOfBooks;
     }
 
+    public String getGenre() {
+        return genre;
+    }
+
+    public void setGenre(String genre) {
+        this.genre = genre;
+    }
 }
