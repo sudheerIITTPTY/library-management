@@ -1,13 +1,34 @@
 package org.library.model;
 
-public class Member extends User{
-    private String status;
+import java.util.List;
 
-    public String getStatus() {
-        return status;
+public class Member extends User {
+
+    private String memberShipId;
+    private List<Book> rentedBooks;
+    private int fine;
+
+    public String getMemberShipId() {
+        return memberShipId;
     }
 
-    public void setStatus(String status) {
-        this.status = status;
+    public void setMemberShipId(String memberShipId) {
+        this.memberShipId = memberShipId;
+    }
+
+    public List<Book> getRentedBooks() {
+        return rentedBooks;
+    }
+
+    public void setRentedBooks(List<Book> rentedBooks) {
+        this.rentedBooks = rentedBooks;
+    }
+
+    public int getFine() {
+        return fine;
+    }
+
+    public void setFine(int fine) {
+        this.fine = fine;
     }
 }
