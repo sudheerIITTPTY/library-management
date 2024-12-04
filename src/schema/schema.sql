@@ -1,0 +1,3 @@
+--tables
+--constraints (if exist)
+--insert queries
